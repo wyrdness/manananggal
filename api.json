@@ -1,0 +1,357 @@
+{
+  "category": "UNDEAD",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/manananggal",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "manananggal",
+    "name": "Manananggal",
+    "aliases": [
+      {
+        "name": "Tik-Tik",
+        "language": "Filipino",
+        "region": "Visayas",
+        "meaning": "Named for the sound it makes while flying"
+      },
+      {
+        "name": "Wak-Wak",
+        "language": "Filipino",
+        "region": "Philippines",
+        "meaning": "Another onomatopoeia variant"
+      }
+    ],
+    "category": "UNDEAD",
+    "subcategory": "Shapeshifter",
+    "tags": [
+      "vampire",
+      "shapeshifter",
+      "undead",
+      "filipino",
+      "nocturnal",
+      "flying",
+      "supernatural"
+    ],
+    "status": "active",
+    "description": {
+      "summary": "A Filipino vampire-like creature that detaches its upper torso from its lower body at night, grows bat-like wings, and preys on pregnant women and sick people using its long proboscis tongue.",
+      "full": "The Manananggal is a terrifying creature from Filipino folklore, particularly prominent in the Visayas region. By day, it appears as a beautiful woman living a normal life. By night, it undergoes a horrific transformation: its upper torso separates from its lower body at the waist, growing bat-like wings that allow it to fly in search of prey. The creature is especially feared for its predation on pregnant women, using its long, proboscis-like tongue to feed on unborn fetuses through roof thatch. The creature's name comes from 'tanggal' (to remove or separate), referring to its ability to detach its body. Its distinctive 'tik-tik' sound is said to work in reverse - louder when far away, softer when near, making it difficult for victims to judge their danger. The Manananggal can be killed by destroying its lower body while it is separated, typically by applying salt, garlic, or ash to prevent reconnection before sunrise."
+    },
+    "etymology": {
+      "origin": "From Tagalog/Visayan 'tanggal' meaning 'to remove' or 'to separate'",
+      "meaning": "One who removes or separates (itself)",
+      "first_use": "Traditional folklore, pre-colonial origins with Spanish colonial influences"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "UNDEAD",
+      "type": "Shapeshifter",
+      "subtype": "Vampire-like",
+      "variant": "Filipino"
+    },
+    "related_phenomena": [
+      {
+        "id": "penanggalan",
+        "name": "Penanggalan",
+        "relationship": "similar",
+        "description": "Malaysian vampire that detaches only its head with trailing organs"
+      },
+      {
+        "id": "aswang",
+        "name": "Aswang",
+        "relationship": "related",
+        "description": "General category of Filipino shapeshifting creatures, Manananggal is a type of aswang"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "appearance_day": {
+        "description": "Beautiful woman, normal human appearance",
+        "frequency": "always"
+      },
+      "appearance_night": {
+        "description": "Upper torso separated, bat-like wings, fangs exposed, long proboscis tongue",
+        "frequency": "always"
+      },
+      "features": [
+        {
+          "feature": "Body separation",
+          "description": "Upper torso detaches from lower body at waist, lower body left standing or hidden",
+          "frequency": "always"
+        },
+        {
+          "feature": "Bat-like wings",
+          "description": "Large membranous wings emerge from severed torso for flight",
+          "frequency": "always"
+        },
+        {
+          "feature": "Proboscis tongue",
+          "description": "Long, tubular tongue used to feed on victims",
+          "frequency": "always"
+        },
+        {
+          "feature": "Fangs",
+          "description": "Sharp teeth visible in creature form",
+          "frequency": "common"
+        },
+        {
+          "feature": "Red eyes",
+          "description": "Eyes glow red in the dark",
+          "frequency": "common"
+        }
+      ],
+      "morphology": "By day: normal human woman. By night: separated upper torso with wings, lower body remains stationary"
+    },
+    "abilities": [
+      {
+        "ability": "Body separation",
+        "description": "Can detach upper torso from lower body at waist",
+        "frequency": "nightly",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Flight",
+        "description": "Flies using bat-like wings on separated upper torso",
+        "frequency": "nightly",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Shape-shifting",
+        "description": "Appears as normal woman during day, transforms at night",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Tik-tik sound",
+        "description": "Produces distinctive sound while flying - loud when far, soft when near (sound reversal)",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Roof penetration",
+        "description": "Can feed through thatched roofs without entering",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "activity_period": "nocturnal",
+      "disposition": "malevolent",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "rural villages",
+        "areas with thatched roofs",
+        "forested areas near communities"
+      ],
+      "diet": "Feeds on unborn fetuses (preferred), sick people, blood",
+      "patterns": [
+        "Separates body at night",
+        "Hides lower body while hunting",
+        "Must reunite before sunrise or die",
+        "Targets pregnant women primarily",
+        "Uses tongue to feed through roofs"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Primarily Philippines, especially the Visayas region. Also reported in other Filipino regions including Luzon and Mindanao.",
+      "continents": ["Asia"],
+      "countries": ["Philippines"],
+      "regions": [
+        "Visayas",
+        "Luzon",
+        "Mindanao",
+        "Rural provinces"
+      ]
+    },
+    "temporal": {
+      "first_recorded": {
+        "date": "Pre-colonial",
+        "circa": true,
+        "source": "Traditional Filipino folklore, predates Spanish colonization"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "Traditional era",
+          "description": "Strong presence in pre-colonial and colonial Filipino culture"
+        },
+        {
+          "period": "Modern folklore",
+          "description": "Continues as active part of Filipino folk tradition and popular culture"
+        }
+      ]
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Pre-colonial Filipino mythology, particularly from the Visayan peoples. The belief may have roots in indigenous animistic traditions combined with later influences.",
+      "earliest_accounts": "Oral traditions dating back to pre-colonial times. Documented by Spanish colonizers.",
+      "folklore_connections": "Related to broader Southeast Asian vampire mythology including Penanggalan (Malaysia), Krasue (Thailand), and part of the larger aswang tradition."
+    },
+    "timeline": [
+      {
+        "date": "Pre-colonial",
+        "event": "Traditional folklore origins",
+        "significance": "Manananggal stories part of indigenous Filipino belief systems",
+        "source": "Oral traditions"
+      },
+      {
+        "date": "1521-1898",
+        "event": "Spanish colonial period",
+        "significance": "Folklore documented by Spanish colonizers, merged with Catholic concepts",
+        "source": "Colonial records"
+      },
+      {
+        "date": "20th century",
+        "event": "Modern documentation",
+        "significance": "Folklore collected and preserved by Filipino scholars",
+        "source": "Anthropological studies"
+      },
+      {
+        "date": "1990s-present",
+        "event": "Popular culture presence",
+        "significance": "Featured in Filipino films, TV shows, and literature",
+        "source": "Media"
+      }
+    ],
+    "modern_era": "The Manananggal remains a vital part of Filipino folklore and popular culture, appearing in movies, television, literature, and continuing as an active folk belief in rural areas."
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Told as warning to pregnant women",
+        "Part of broader aswang mythology",
+        "Protection rituals and charms"
+      ],
+      "stories": [
+        "Various local tales of encounters",
+        "Stories of successful defense against manananggal",
+        "Tales of discovery and destruction of lower body"
+      ],
+      "beliefs": "Taken seriously in many rural Filipino communities. Pregnant women may take protective measures."
+    },
+    "indigenous": {
+      "cultures": [
+        "Visayan peoples",
+        "Various Filipino ethnic groups"
+      ],
+      "significance": "Important cautionary tale, reflects cultural anxieties about pregnancy, childbirth, and vulnerability of women and children.",
+      "sensitivity_note": "This is a living folk tradition. Researchers should approach Filipino perspectives with cultural respect and awareness.",
+      "respect_guidelines": "Recognize this as part of active Filipino cultural heritage, not mere superstition. Avoid dismissive or mocking treatment."
+    },
+    "popular_culture": {
+      "literature": [
+        "\"Philippine Folklore Stories\" by John Maurice Miller",
+        "\"Creatures of Philippine Lower Mythology\" by Maximo Ramos",
+        "Modern Filipino horror literature"
+      ],
+      "film_tv": [
+        "\"Manananggal\" (1927) - Early Filipino film",
+        "\"Shake, Rattle & Roll\" series - Multiple appearances",
+        "\"Tiktik: The Aswang Chronicles\" (2012)",
+        "Various Filipino horror films"
+      ],
+      "games": [
+        "Featured in Filipino indie games",
+        "Referenced in international games with Filipino content"
+      ],
+      "other": [
+        "Popular Halloween costume in Philippines",
+        "Subject of Filipino art and comics",
+        "Tourism element in some regions"
+      ]
+    }
+  },
+
+  "protection_methods": {
+    "preventive": [
+      {
+        "method": "Salt on windowsills",
+        "description": "Prevents entry into homes",
+        "effectiveness": "traditional"
+      },
+      {
+        "method": "Garlic",
+        "description": "Repels the creature",
+        "effectiveness": "traditional"
+      },
+      {
+        "method": "Holy objects",
+        "description": "Crucifix, holy water, blessed items for protection",
+        "effectiveness": "traditional"
+      },
+      {
+        "method": "Buntot pagi (stingray tail)",
+        "description": "Traditional protection charm",
+        "effectiveness": "traditional"
+      }
+    ],
+    "offensive": [
+      {
+        "method": "Find and destroy lower body",
+        "description": "Locate the separated lower body and destroy it, preventing reconnection",
+        "effectiveness": "lethal"
+      },
+      {
+        "method": "Salt/ash/garlic on lower body",
+        "description": "Apply to severed lower body to prevent reconnection, creature dies at sunrise",
+        "effectiveness": "lethal"
+      },
+      {
+        "method": "Keep creature away until dawn",
+        "description": "If upper body cannot reconnect before sunrise, it dies",
+        "effectiveness": "lethal"
+      }
+    ]
+  },
+
+  "sources": [
+    {
+      "id": "ramos-1971",
+      "type": "book",
+      "title": "Creatures of Philippine Lower Mythology",
+      "authors": ["Maximo D. Ramos"],
+      "publication": "University of the Philippines Press",
+      "date": "1971"
+    },
+    {
+      "id": "ramos-1990",
+      "type": "book",
+      "title": "The Aswang Syncrasy in Philippine Folklore",
+      "authors": ["Maximo D. Ramos"],
+      "publication": "Phoenix Publishing",
+      "date": "1990"
+    },
+    {
+      "id": "eugenio-2007",
+      "type": "book",
+      "title": "Philippine Folk Literature: An Anthology",
+      "authors": ["Damiana L. Eugenio"],
+      "publication": "University of the Philippines Press",
+      "date": "2007"
+    }
+  ]
+}
