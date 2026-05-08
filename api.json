@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/manananggal",
     "maintainers": [
       {
@@ -16,71 +16,130 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "manananggal",
     "name": "Manananggal",
-    "aliases": [],
-    "category": "OF_FILIPINO_SHAPESHIFTING_CREATURES_|",
-    "subcategory": "Vampire-like",
+    "aliases": [
+      { "name": "Tanggal", "language": "Visayan / Tagalog", "meaning": "to remove or separate" },
+      { "name": "Aswang Manananggal", "language": "Filipino", "region": "Philippines" }
+    ],
+    "category": "SHAPESHIFTER",
+    "subcategory": "Self-segmenting vampiric creature (aswang variant)",
     "tags": [
-      "&-interpretation"
+      "philippines",
+      "filipino-folklore",
+      "vampire",
+      "aswang",
+      "shapeshifter",
+      "visayas",
+      "self-segmenting"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Manananggal is a terrifying creature from Filipino folklore, particularly prominent in the Visayas region.",
-      "full": "The Manananggal is a terrifying creature from Filipino folklore, particularly prominent in the Visayas region. By day, it appears as a beautiful woman living a normal life. By night, it undergoes a horrific transformation: its upper torso separates from its lower body at the waist, growing bat-like wings that allow it to fly in search of prey. The creature is especially feared for its predation on pregnant women, using its long, proboscis-like tongue to feed on unborn fetuses through roof thatch. The Manananggal can be killed by destroying its lower body while it is separated, typically by applying salt, garlic, or ash to prevent reconnection before sunrise. ⚠️ **Cultural Sensitivity**: This is a living Filipino folk tradition with deep cultural significance. Approach with respect and cultural awareness."
+      "summary": "A creature of Filipino folklore, especially in the Visayan regions, that appears as a woman by day and at night separates her upper torso from her lower body, sprouting bat-like wings and flying in search of pregnant women, infants, and lovers, on whom she preys with an elongated proboscis-like tongue.",
+      "full": "The Manananggal is one of the most distinctive creatures of Philippine folklore, particularly associated with the Visayan provinces of Capiz, Iloilo, Antique, and Bohol. By day she lives as an ordinary-looking woman; at night she severs her upper torso at the waist and, with bat-like wings sprouting from her back, flies in search of victims. She is best known for preying on pregnant women, using a long thread-like or proboscis-like tongue to reach unborn fetuses through the thatch of nipa-hut roofs, but also for attacks on newlyweds, infants, and unwary travellers. Folkloric protections include sprinkling salt, ash, garlic, vinegar, or spices on the abandoned lower torso while she is away — preventing reattachment before sunrise will kill her — and the use of the buntot pagi (stingray-tail whip). The Manananggal is the most famous specifically Visayan branch of the broader aswang complex, and was documented as early as the late 16th century in Spanish missionary writings such as Juan de Plasencia's Customs of the Tagalogs (1589)."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Tagalog / Visayan, from the root 'tanggál' meaning 'to remove' or 'to separate'.",
+      "meaning": "'Remover' or 'separator' — referring to her ability to detach her upper body from her lower half.",
+      "first_use": "Documented in Spanish colonial sources from at least the late 16th century (Plasencia, 1589)."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "OF_FILIPINO_SHAPESHIFTING_CREATURES_|",
-      "type": "Vampire-like",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "SHAPESHIFTER",
+      "type": "Vampiric self-segmenting creature",
+      "subtype": "Aswang variant",
+      "variant": "Visayan Filipino"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "aswang", "name": "Aswang", "relationship": "superset", "description": "Broader Philippine category of nocturnal predatory shapeshifters; manananggal is the segmenting subtype" },
+      { "id": "penanggalan", "name": "Penanggalan", "relationship": "similar", "description": "Malay self-segmenting vampiric creature (head with trailing entrails)" },
+      { "id": "krasue", "name": "Krasue", "relationship": "similar", "description": "Thai/Lao floating-head spirit with hanging entrails" },
+      { "id": "leyak", "name": "Leyak", "relationship": "similar", "description": "Balinese flying-head witch" },
+      { "id": "tiyanak", "name": "Tiyanak", "relationship": "related", "description": "Filipino predatory infant spirit, sometimes paired with the manananggal" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Beautiful woman by day", "description": "Indistinguishable from an ordinary, often beautiful, woman during daylight hours", "frequency": "always" },
+        { "feature": "Self-segmenting body", "description": "At night the upper torso separates from the lower half at the waist, leaving the lower body behind", "frequency": "always" },
+        { "feature": "Bat-like wings", "description": "Large bat-like wings sprout from the back of the detached upper torso", "frequency": "always" },
+        { "feature": "Exposed entrails", "description": "Entrails hang from the severed waist of the upper torso in flight", "frequency": "common" },
+        { "feature": "Elongated proboscis-like tongue", "description": "Long, thin, hollow tongue used to feed on the blood of victims and the fetuses of pregnant women", "frequency": "always" },
+        { "feature": "Fangs", "description": "Sharp fangs comparable to those of European vampires", "frequency": "common" }
+      ],
+      "morphology": "Human female who at night divides into two parts: a winged upper-body predator and a stationary lower body that must be reunited before sunrise."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Body separation", "description": "Detaches her upper torso from her lower body at night", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Flight", "description": "Flies through the night air on bat-like wings", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Predation on pregnant women and fetuses", "description": "Uses her elongated tongue, threaded through nipa thatch, to draw out unborn fetuses or blood from sleeping pregnant women", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Concealment in human form", "description": "Lives among ordinary villagers as a woman during the day, evading detection", "frequency": "always", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["rural Visayan villages", "forested countryside", "houses of pregnant women and newlyweds"],
+      "diet": "Blood; unborn fetuses; sometimes the hearts and entrails of victims",
+      "patterns": [
+        "Targets pregnant women, newborns, and newlyweds in particular",
+        "Cannot reattach to her lower body after sunrise — must return before dawn",
+        "Vulnerable while separated; lower body can be salted, ashed, oiled with garlic, or sprinkled with vinegar to prevent reunification"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Throughout the Philippines, but most strongly associated with the Visayan region — particularly the provinces of Capiz, Iloilo, Antique, and Bohol — which is also the cultural heartland of the broader aswang tradition.",
+      "continents": ["Asia"],
+      "countries": ["Philippines"],
+      "regions": ["Visayas", "Capiz", "Iloilo", "Antique", "Bohol"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Capiz province",
+        "location": {
+          "description": "Capiz province on the island of Panay",
+          "country": "Philippines",
+          "region": "Western Visayas"
+        },
+        "peak_period": "20th century to present",
+        "notes": "Capiz is the province most strongly identified in modern Philippine media with aswang and manananggal traditions."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1589",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Juan de Plasencia, Customs of the Tagalogs (1589)"
+      },
+      "peak_activity_periods": [
+        { "period": "Late 16th–18th century", "description": "Documentation in Spanish colonial and missionary sources, including Plasencia and Domingo de los Santos." },
+        { "period": "20th century–present", "description": "Strong presence in Philippine cinema, comics, television, and popular culture." }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Pre-colonial Visayan and broader Philippine animistic and witch-belief systems, integrated into the wider aswang tradition.",
+      "earliest_accounts": "Spanish missionary documentation from the late 16th century, including Juan de Plasencia's Customs of the Tagalogs (1589) and Fray Domingo de los Santos's Vocabulario de Lengua Tagala (1703).",
+      "folklore_connections": "Member of the wider Southeast Asian self-segmenting creature complex that includes the Malay penanggalan, the Thai/Lao krasue, and the Balinese leyak."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1589-01-01", "event": "Juan de Plasencia describes manananggal-like nocturnal women in Customs of the Tagalogs", "significance": "Earliest known European-language documentation", "source": "Plasencia, Customs of the Tagalogs (1589)" },
+      { "date": "1703-01-01", "event": "Fray Domingo de los Santos records related entries in the Vocabulario de Lengua Tagala", "significance": "Continues colonial documentation of the tradition", "source": "Vocabulario de Lengua Tagala (1703)" }
+    ],
+    "modern_era": "The manananggal remains a vivid presence in modern Filipino culture, featured heavily in Philippine horror cinema (Shake, Rattle & Roll), television (Aswang, Trese), comics, and folk-tour traditions in Capiz and elsewhere."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -91,35 +150,121 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "manananggal-evidence-plasencia-1589",
+        "type": "missionary record",
+        "name": "Juan de Plasencia, Customs of the Tagalogs (1589)",
+        "date": "1589",
+        "description": "Late 16th-century Spanish missionary description of nocturnal predatory women in Tagalog territory consistent with the manananggal / aswang complex.",
+        "status": "disputed",
+        "analysis": "Treated by historians as evidence of pre-colonial belief filtered through missionary attitudes toward Indigenous religion.",
+        "source": "Plasencia (1589)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Vampiric witch",
+        "description": "Within Philippine folk belief the manananggal is a real witch who has acquired the power to detach her body and fly to feed on humans.",
+        "proponents": ["Visayan folk tradition"],
+        "evidence_cited": ["Continuity of belief from pre-colonial to modern times", "Concrete protective practices around childbirth"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Cultural projection of fears around childbirth",
+        "description": "The manananggal is best understood as a folk representation of dangers around pregnancy, infant mortality, and female autonomy in Philippine rural society.",
+        "proponents": ["Philippine folklorists and anthropologists"],
+        "evidence_cited": ["Specific focus on pregnant women, newborns, and newlyweds", "Protective rituals tied to the perinatal period"]
+      },
+      {
+        "name": "Colonial witchcraft framing",
+        "description": "Spanish missionary documentation reframed Indigenous Philippine spiritual figures, including healers and midwives, as 'witches' such as the aswang/manananggal, contributing to the modern shape of the figure.",
+        "proponents": ["Postcolonial historians of the Philippines"],
+        "evidence_cited": ["Missionary sources such as Plasencia (1589)", "Convergence of missionary witch-categories with Indigenous figures"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Visayan aswang complex",
+        "Capiz provincial folklore",
+        "Filipino oral storytelling about predatory night-women"
+      ],
+      "stories": [
+        "Tales of pregnant women being warned to stay indoors at night",
+        "Stories of villagers identifying a manananggal by salting her abandoned lower body"
+      ],
+      "beliefs": "In many rural Filipino communities the manananggal remains a meaningful figure of fear and caution, particularly in pregnancy and childbirth contexts."
+    },
+    "indigenous": {
+      "cultures": ["Visayan peoples", "Tagalog", "Filipino"],
+      "significance": "The manananggal is part of the still-active Filipino aswang tradition, deeply tied to Visayan identity.",
+      "sensitivity_note": "This is a living Filipino folk tradition, not a generic 'monster'; treat its cultural and religious context with respect.",
+      "respect_guidelines": "Cite Filipino folklorists and primary sources where possible; avoid sensationalising Capiz province as a 'witch capital'."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Maximo D. Ramos, Creatures of Philippine Lower Mythology (1971)",
+        "Trese (komiks series by Budjette Tan and Kajo Baldisimo)"
+      ],
+      "film_tv": [
+        "Shake, Rattle & Roll franchise (segments featuring manananggal)",
+        "Aswang (1992)",
+        "Trese (Netflix animated series, 2021)"
+      ],
       "games": [],
-      "other": []
+      "music": [],
+      "other": [
+        "Recurring figure in Capiz festival, tourism, and Philippine horror media"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Maximo D. Ramos", "affiliation": "University of the Philippines (folklore)", "contribution": "Foundational systematic survey of Philippine lower mythology including the aswang/manananggal complex", "period": "1960s–1980s" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Active research within Philippine folklore studies, women's studies, and Southeast Asian comparative folklore."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-manananggal",
+      "type": "website",
+      "title": "Manananggal",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Manananggal",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "ramos-1971",
+      "type": "book",
+      "title": "Creatures of Philippine Lower Mythology",
+      "authors": ["Maximo D. Ramos"],
+      "publication": "University of the Philippines Press",
+      "date": "1971"
+    },
+    {
+      "id": "plasencia-1589",
+      "type": "archive",
+      "title": "Customs of the Tagalogs",
+      "authors": ["Juan de Plasencia"],
+      "date": "1589"
+    }
+  ]
 }

@@ -1,293 +1,174 @@
 # Manananggal
 
-> *"Tik-tik, tik-tik... the sound grows softer, and terror grows louder."*
+> A creature of Filipino folklore, especially in the Visayan regions, that appears as a woman by day and at night separates her upper torso from her lower body, sprouting bat-like wings and flying in search of pregnant women, infants, and lovers, on whom she preys with an elongated proboscis-like tongue.
 
-[![API Version](https://img.shields.io/badge/api-v1.0.0-blue)]()
-[![Last Updated](https://img.shields.io/badge/updated-2026--01--14-green)]()
-[![Status](https://img.shields.io/badge/status-active-brightgreen)]()
+[![API Version](https://img.shields.io/badge/api-v1.1.0-blue)]() [![Last Updated](https://img.shields.io/badge/updated-2026-05-07-green)]() [![Sightings](https://img.shields.io/badge/sightings-0-orange)]() ![Status](https://img.shields.io/badge/status-documented-blue)
 
 ---
-
 ## Quick Reference
 
 | Property | Value |
-|----------|-------|
+|---|---|
 | **ID** | `manananggal` |
-| **Category** | UNDEAD / SHAPESHIFTER |
-| **Classification** | Vampire-like / Filipino |
-| **First Recorded** | Pre-colonial (Traditional folklore) |
-| **Primary Region** | Philippines (Visayas) |
-| **Status** | Active folklore |
+| **Category** | SHAPESHIFTER |
+| **Subcategory** | Self-segmenting vampiric creature (aswang variant) |
+| **First recorded** | 1589-01-01 |
+| **Primary range** | Throughout the Philippines, but most strongly associated with the Visayan region — particularly the provinces of Capiz, Iloilo, Antique, and Bohol — which is also the cultural heartland of the broader aswang tradition |
+| **Status** | documented |
 
 ---
-
 ## Overview
 
-The Manananggal is a terrifying creature from Filipino folklore, particularly prominent in the Visayas region. By day, it appears as a beautiful woman living a normal life. By night, it undergoes a horrific transformation: its upper torso separates from its lower body at the waist, growing bat-like wings that allow it to fly in search of prey.
-
-The creature is especially feared for its predation on pregnant women, using its long, proboscis-like tongue to feed on unborn fetuses through roof thatch. The Manananggal can be killed by destroying its lower body while it is separated, typically by applying salt, garlic, or ash to prevent reconnection before sunrise.
-
-⚠️ **Cultural Sensitivity**: This is a living Filipino folk tradition with deep cultural significance. Approach with respect and cultural awareness.
+The Manananggal is one of the most distinctive creatures of Philippine folklore, particularly associated with the Visayan provinces of Capiz, Iloilo, Antique, and Bohol. By day she lives as an ordinary-looking woman; at night she severs her upper torso at the waist and, with bat-like wings sprouting from her back, flies in search of victims. She is best known for preying on pregnant women, using a long thread-like or proboscis-like tongue to reach unborn fetuses through the thatch of nipa-hut roofs, but also for attacks on newlyweds, infants, and unwary travellers. Folkloric protections include sprinkling salt, ash, garlic, vinegar, or spices on the abandoned lower torso while she is away — preventing reattachment before sunrise will kill her — and the use of the buntot pagi (stingray-tail whip). The Manananggal is the most famous specifically Visayan branch of the broader aswang complex, and was documented as early as the late 16th century in Spanish missionary writings such as Juan de Plasencia's Customs of the Tagalogs (1589).
 
 ---
+## Names & Aliases
 
-## Etymology & Names
+| Name | Origin | Meaning |
+|---|---|---|
+| Tanggal | Visayan / Tagalog | to remove or separate |
+| Aswang Manananggal | Filipino / Philippines |  |
 
-### Primary Name
-- **Manananggal** — From Tagalog/Visayan "tanggal" meaning "to remove" or "to separate," referring to its ability to detach its upper body from its lower body.
+## Etymology
 
-### Alternative Names
-
-| Name | Language/Region | Meaning |
-|------|-----------------|---------|
-| Tik-Tik | Filipino (Visayas) | Named for the sound it makes while flying |
-| Wak-Wak | Filipino | Another onomatopoeia variant |
-
----
-
-## Classification
-
-### Taxonomy
-```
-Category: UNDEAD
-├── Type: Shapeshifter
-├── Subtype: Vampire-like
-└── Variant: Filipino
-```
-
-### Related Phenomena
-
-| Phenomenon | Relationship | Description |
-|------------|--------------|-------------|
-| [Penanggalan](/penanggalan) | Similar | Malaysian vampire that detaches only its head with trailing organs |
-| [Aswang](/aswang) | Related | General category of Filipino shapeshifting creatures |
+- **Origin**: Tagalog / Visayan, from the root 'tanggál' meaning 'to remove' or 'to separate'.
+- **Meaning**: 'Remover' or 'separator' — referring to her ability to detach her upper body from her lower half.
+- **First use**: Documented in Spanish colonial sources from at least the late 16th century (Plasencia, 1589).
 
 ---
+## Related Phenomena
 
-## Characteristics
+- [Aswang](../aswang/) — _superset_: Broader Philippine category of nocturnal predatory shapeshifters; manananggal is the segmenting subtype
+- [Penanggalan](../penanggalan/) — _similar_: Malay self-segmenting vampiric creature (head with trailing entrails)
+- [Krasue](../krasue/) — _similar_: Thai/Lao floating-head spirit with hanging entrails
+- [Leyak](../leyak/) — _similar_: Balinese flying-head witch
+- [Tiyanak](../tiyanak/) — _related_: Filipino predatory infant spirit, sometimes paired with the manananggal
 
-### Physical Description
+---
+## Physical Description
 
-**Day Form:**
-- Beautiful woman
-- Normal human appearance
-- Lives ordinary life in community
+- **Morphology**: Human female who at night divides into two parts: a winged upper-body predator and a stationary lower body that must be reunited before sunrise.
 
-**Night Form:**
-- Upper torso separated at waist
-- Lower body left standing or hidden
-- Bat-like wings emerge from torso
-- Long proboscis tongue
-- Fangs visible
-- Red glowing eyes
-
-### Distinguishing Features
+### Features
 
 | Feature | Description | Frequency |
-|---------|-------------|-----------|
-| Body separation | Upper torso detaches from lower body at waist | Always |
-| Bat wings | Large membranous wings for flight | Always |
-| Proboscis tongue | Long, tubular tongue used to feed on victims | Always |
-| Fangs | Sharp teeth visible in creature form | Common |
-| Red eyes | Eyes glow red in the dark | Common |
+|---|---|---|
+| Beautiful woman by day | Indistinguishable from an ordinary, often beautiful, woman during daylight hours | always |
+| Self-segmenting body | At night the upper torso separates from the lower half at the waist, leaving the lower body behind | always |
+| Bat-like wings | Large bat-like wings sprout from the back of the detached upper torso | always |
+| Exposed entrails | Entrails hang from the severed waist of the upper torso in flight | common |
+| Elongated proboscis-like tongue | Long, thin, hollow tongue used to feed on the blood of victims and the fetuses of pregnant women | always |
+| Fangs | Sharp fangs comparable to those of European vampires | common |
 
-### Reported Abilities
+## Reported Abilities
 
-| Ability | Description | Evidence Level |
-|---------|-------------|----------------|
-| Body separation | Detaches upper torso from lower body at waist | Folklore |
-| Flight | Flies using bat-like wings on separated torso | Folklore |
-| Shape-shifting | Appears as normal woman by day, transforms at night | Folklore |
-| Tik-tik sound | Distinctive sound while flying - loud when far, soft when near | Folklore |
-| Roof penetration | Can feed through thatched roofs | Folklore |
+| Ability | Description | Frequency | Evidence |
+|---|---|---|---|
+| Body separation | Detaches her upper torso from her lower body at night | always | folklore |
+| Flight | Flies through the night air on bat-like wings | always | folklore |
+| Predation on pregnant women and fetuses | Uses her elongated tongue, threaded through nipa thatch, to draw out unborn fetuses or blood from sleeping pregnant women | always | folklore |
+| Concealment in human form | Lives among ordinary villagers as a woman during the day, evading detection | always | folklore |
 
-### Behavioral Patterns
+## Behavior
 
-- **Activity Period**: Nocturnal (separates at night, reunites before dawn)
-- **Disposition**: Malevolent (preys on vulnerable humans)
-- **Social Structure**: Solitary
-- **Habitat Preference**: Rural villages, areas with thatched roofs
-- **Diet**: Unborn fetuses (preferred), sick people, blood
-
-**Key Behaviors:**
-- Separates body at nightfall
-- Hides lower body while hunting
-- Must reunite before sunrise or die
-- Targets pregnant women primarily
-- Uses tongue to feed through roofs
-- Produces "tik-tik" sound with reversed volume
+- **Activity**: nocturnal
+- **Disposition**: aggressive
+- **Social structure**: solitary
+- **Habitat**: rural Visayan villages, forested countryside, houses of pregnant women and newlyweds
+- **Diet**: Blood; unborn fetuses; sometimes the hearts and entrails of victims
 
 ---
+## Distribution
 
-## The Tik-Tik Sound
+Throughout the Philippines, but most strongly associated with the Visayan region — particularly the provinces of Capiz, Iloilo, Antique, and Bohol — which is also the cultural heartland of the broader aswang tradition.
 
-One of the most distinctive and terrifying features of the Manananggal is its sound:
+### Hotspots
 
-**Sound Reversal Phenomenon:**
-- **Loud "tik-tik" sound** = creature is far away
-- **Soft "tik-tik" sound** = creature is very close
-
-This reversal makes it impossible for victims to judge their danger accurately, adding to the psychological terror.
-
----
-
-## Vulnerabilities & Protection
-
-### How to Protect Yourself
-
-| Method | Description | Effectiveness |
-|--------|-------------|---------------|
-| Salt on windowsills | Prevents entry into homes | Traditional |
-| Garlic | Repels the creature | Traditional |
-| Holy objects | Crucifix, holy water, blessed items | Traditional |
-| Buntot pagi | Stingray tail protection charm | Traditional |
-
-### How to Kill a Manananggal
-
-| Method | Description | Effectiveness |
-|--------|-------------|---------------|
-| Find and destroy lower body | Locate the separated lower body and destroy it | Lethal |
-| Salt/ash/garlic on lower body | Apply to severed body to prevent reconnection | Lethal |
-| Keep separated until dawn | If upper body cannot reconnect before sunrise, it dies | Lethal |
-
-**Traditional Killing Method:**
-1. Discover where the Manananggal hides its lower body
-2. Apply salt, garlic, or ash to the lower body
-3. This prevents reconnection
-4. The creature dies at sunrise when unable to reunite
+| Location | Region | Sightings | Peak |
+|---|---|---|---|
+| Capiz province | Western Visayas, Philippines |  | 20th century to present |
 
 ---
-
-## Geographic Distribution
-
-### Primary Range
-
-The Philippines, with highest concentration in the Visayas region. Also reported in Luzon and Mindanao, particularly in rural provinces.
-
-**Regional Focus:**
-- Visayas (primary)
-- Rural Luzon
-- Rural Mindanao
-- Small villages with traditional structures
-
----
-
 ## Historical Timeline
 
-### Origins
-
-Pre-colonial Filipino mythology, particularly from the Visayan peoples. The belief may have roots in indigenous animistic traditions, later influenced by Spanish colonial contact and Catholic concepts of good and evil.
-
-### Key Events
-
 | Date | Event | Significance |
-|------|-------|--------------|
-| Pre-colonial | Traditional folklore origins | Part of indigenous Filipino belief systems |
-| 1521-1898 | Spanish colonial period | Folklore documented by colonizers, merged with Catholic concepts |
-| 20th century | Modern documentation | Collected and preserved by Filipino scholars |
-| 1990s-present | Popular culture presence | Featured in Filipino films, TV shows, literature |
+|---|---|---|
+| 1589-01-01 | Juan de Plasencia describes manananggal-like nocturnal women in Customs of the Tagalogs | Earliest known European-language documentation |
+| 1703-01-01 | Fray Domingo de los Santos records related entries in the Vocabulario de Lengua Tagala | Continues colonial documentation of the tradition |
 
-### Modern Era
+## Evidence
 
-The Manananggal remains a vital part of Filipino folklore and popular culture, appearing in movies, television, literature, and continuing as an active folk belief in rural areas.
+### Documentary
 
----
-
-## Cultural Significance
-
-### Filipino Perspectives
-
-> ⚠️ **Cultural Sensitivity Note**: This is a living folk tradition with deep cultural significance. Many rural Filipinos take these beliefs seriously, particularly regarding protection of pregnant women and children.
-
-**Cultural Functions:**
-- Warning tale for pregnant women
-- Reflects anxieties about pregnancy and childbirth
-- Emphasizes vulnerability of women and children
-- Community protection traditions
-
-### Popular Culture
-
-**Literature:**
-- "Philippine Folklore Stories" by John Maurice Miller
-- "Creatures of Philippine Lower Mythology" by Maximo Ramos
-- Modern Filipino horror literature
-
-**Film/TV:**
-- "Manananggal" (1927) - Early Filipino film
-- "Shake, Rattle & Roll" series - Multiple appearances
-- "Tiktik: The Aswang Chronicles" (2012)
-- Various Filipino horror films
-
-**Other:**
-- Popular Halloween costume in Philippines
-- Subject of Filipino art and comics
-- Tourism element in some regions
+| Name | Date | Description | Status |
+|---|---|---|---|
+| Juan de Plasencia, Customs of the Tagalogs (1589) | 1589 | Late 16th-century Spanish missionary description of nocturnal predatory women in Tagalog territory consistent with the manananggal / aswang complex. | disputed |
 
 ---
+## Theories & Explanations
 
-## Symbolism & Interpretation
+### Paranormal / Cryptozoological
 
-### Cultural Analysis
+**Vampiric witch** _(Visayan folk tradition)_
 
-The Manananggal embodies several cultural themes:
-- **Female duality**: Beautiful by day, monstrous by night
-- **Pregnancy vulnerability**: Cultural anxieties about childbirth
-- **Social trust**: The monster hides among the community
-- **Protection of family**: Need for vigilance and protective measures
+Within Philippine folk belief the manananggal is a real witch who has acquired the power to detach her body and fly to feed on humans.
 
-### Modern Interpretations
+### Skeptical
 
-Some scholars interpret the Manananggal as:
-- Metaphor for societal fears about women's power
-- Representation of maternal mortality fears
-- Symbol of hidden danger within communities
-- Cautionary tale about trust and appearance
+**Cultural projection of fears around childbirth** _(Philippine folklorists and anthropologists)_
 
----
+The manananggal is best understood as a folk representation of dangers around pregnancy, infant mortality, and female autonomy in Philippine rural society.
 
-## API Reference
+**Colonial witchcraft framing** _(Postcolonial historians of the Philippines)_
 
-Machine-readable data is available in [`api.json`](api.json).
+Spanish missionary documentation reframed Indigenous Philippine spiritual figures, including healers and midwives, as 'witches' such as the aswang/manananggal, contributing to the modern shape of the figure.
 
-### Data Access
 
-```javascript
-// Using WyrdnessAPI
-const wyrd = new WyrdnessAPI();
-const manananggal = await wyrd.getPhenomenon('manananggal');
-```
+## Indigenous Perspectives
 
-### Direct Access
+> ⚠️ **This is a living Filipino folk tradition, not a generic 'monster'; treat its cultural and religious context with respect.**
 
-```
-Raw JSON: https://raw.githubusercontent.com/wyrdness/manananggal/main/api.json
-```
+**Cultures**: Visayan peoples, Tagalog, Filipino
+
+The manananggal is part of the still-active Filipino aswang tradition, deeply tied to Visayan identity.
+
+_Guidelines: Cite Filipino folklorists and primary sources where possible; avoid sensationalising Capiz province as a 'witch capital'._
+
+## Popular Culture
+
+**Literature**: Maximo D. Ramos, Creatures of Philippine Lower Mythology (1971); Trese (komiks series by Budjette Tan and Kajo Baldisimo)
+
+**Film / TV**: Shake, Rattle & Roll franchise (segments featuring manananggal); Aswang (1992); Trese (Netflix animated series, 2021)
+
+**Other**: Recurring figure in Capiz festival, tourism, and Philippine horror media
 
 ---
+## Research
 
-## Sources & References
+### Researchers
 
-See [SOURCES.md](SOURCES.md) for complete bibliography.
+| Name | Affiliation | Contribution | Period |
+|---|---|---|---|
+| Maximo D. Ramos | University of the Philippines (folklore) | Foundational systematic survey of Philippine lower mythology including the aswang/manananggal complex | 1960s–1980s |
 
-### Primary Sources
-
-- Ramos, M.D. (1971). *Creatures of Philippine Lower Mythology*. University of the Philippines Press.
-- Ramos, M.D. (1990). *The Aswang Syncrasy in Philippine Folklore*. Phoenix Publishing.
-- Eugenio, D.L. (2007). *Philippine Folk Literature: An Anthology*. University of the Philippines Press.
+Active research within Philippine folklore studies, women's studies, and Southeast Asian comparative folklore.
 
 ---
+## Sources
 
+See [SOURCES.md](SOURCES.md) for the complete bibliography.
+
+
+## How to Report a Sighting
+
+1. **GitHub Issue**: [Submit Sighting Report](../../issues/new?template=sighting_report.yml)
+2. Provide date, location, witnesses, description, conditions, and any evidence.
+
+---
 ## License
 
-- **Content**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- **Data**: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+Content: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)  
 
 ---
-
-<div align="center">
-
-*Part of the [Wyrdness](https://github.com/wyrdness) Paranormal Archive*
-
-[Suggest Correction](../../issues/new?template=correction.yml) • [Full API](api.json)
-
-</div>
+_Auto-generated from `api.json`. Do not edit by hand — edit `api.json` and run `make repo-docs`._
